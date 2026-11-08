@@ -1,0 +1,25 @@
+{
+  "name": "encrypted-file-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Decentralised encrypted file vault: AES-256 in the browser, IPFS storage, SHA-256 hash and access rights on Ethereum.",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm install && npm --prefix frontend install",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.26.0"
+  }
+}
