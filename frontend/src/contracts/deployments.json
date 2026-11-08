@@ -1,0 +1,9 @@
+{
+  "31337": {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "network": "localhost",
+    "blockNumber": 2,
+    "txHash": "0x5762ddf8805078b796c62b578e266643bf6ecc0460a3b40112be686108d1da63",
+    "deployedAt": "2026-11-08T18:55:59.456Z"
+  }
+}
